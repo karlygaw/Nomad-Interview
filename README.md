@@ -125,6 +125,10 @@ npm run dev
 
 #### Logout:
 - Выйдите из системы, нажав на кнопку **Logout**. Это удалит ваш токен авторизации.
+##### До вызода из аккаунта:
+![image](https://github.com/user-attachments/assets/b2f37836-ba3d-484d-ac15-ef159c302911)
+##### После:
+![image](https://github.com/user-attachments/assets/9014c113-1fca-4f47-b382-869de5e428fc)
 
 ### Модели
 #### User
