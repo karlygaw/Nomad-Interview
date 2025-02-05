@@ -37,6 +37,10 @@ php artisan db:seed
 - **Frontend** будет доступен по адресу: [http://localhost:8080](http://localhost:8080)
 
 При переходе на [http://localhost:8080](http://localhost:8080) вы автоматически попадёте на страницу авторизации.
+#### Чтобы остановить и удалить контейнеры
+```bash
+docker-compose down
+'''
 
 ### 2. Запуск вручную (без Docker)
 
@@ -141,3 +145,6 @@ php artisan serve
 cd ../frontend
 npm install
 npm run dev
+```
+
+
