@@ -26,7 +26,7 @@ docker-compose up --build -d
 > Убедитесь, что Docker Desktop запущен.
 
 #### Выполните миграции и сиды:
-Подключитесь к контейнеру backend и выполните команду для заполнения базы данных:
+Подключитесь к контейнеру backend и ***выполните команду для заполнения базы данных***: ***Это обязательно***
 ```bash
 docker exec -it backend bash
 php artisan db:seed
@@ -125,7 +125,7 @@ npm run dev
 
 #### Logout:
 - Выйдите из системы, нажав на кнопку **Logout**. Это удалит ваш токен авторизации.
-##### До вызода из аккаунта:
+##### До выхода из аккаунта:
 ![image](https://github.com/user-attachments/assets/b2f37836-ba3d-484d-ac15-ef159c302911)
 ##### После:
 ![image](https://github.com/user-attachments/assets/9014c113-1fca-4f47-b382-869de5e428fc)
